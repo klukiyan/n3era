@@ -77,3 +77,13 @@
     </div>
   </form>
 </template>
+
+<script setup>
+  const DBResponse = ref([]);
+  const userEmail = ref("");
+  // async function getFromDB () {
+  //   const result = await fetch('tpvisionweb.eu/api/usersshow');
+  //   const data = await result.json();
+  //   DBResponse.value = data;
+  // } 
+</script>
