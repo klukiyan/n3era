@@ -88,7 +88,7 @@
   const DBResponse = ref([]);
   const userEmail = ref("");
   // const data  = await useFetch('tpvisionweb.eu/api/usersshow');
-  const { data } = await useAsyncData('datausers', () => $fetch('http://tpvisionweb.eu/api/usersshow'))
+  const { data } = await useAsyncData('datausers', () => $fetch('https://erawwadee.com/api/usersshow'))
   // await console.log(data)
   // async function getFromDB () {
   //   const result = await $fetch('tpvisionweb.eu/api/usersshow');
