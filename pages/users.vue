@@ -5,7 +5,7 @@
         <h1 class="title-font font-medium text-3xl text-gray-900">
           Subscribe to my newsletter
         </h1>
-        <NuxtLink to="/users">Users</NuxtLink>
+        <NuxtLink to="/">Home</NuxtLink>
         <p class="leading-relaxed mt-4">
           I send out a weekly newsletter with tips and tricks for web
           development. I promise, only relevant content will be sent.
